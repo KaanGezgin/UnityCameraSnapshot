@@ -900,6 +900,7 @@ GameObject:
   m_Component:
   - component: {fileID: 793075560}
   - component: {fileID: 793075561}
+  - component: {fileID: 793075562}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -944,6 +945,19 @@ MonoBehaviour:
   minimumY: -45
   maximumY: 45
   frameCounter: 5
+--- !u!114 &793075562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793075559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc36d10ae4005a945ae7db67ae9c4726, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  snapCam: {fileID: 1796055123}
 --- !u!1 &799035294
 GameObject:
   m_ObjectHideFlags: 0
@@ -1928,6 +1942,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1796055121}
   - component: {fileID: 1796055122}
+  - component: {fileID: 1796055123}
   m_Layer: 0
   m_Name: Snapshot Camera
   m_TagString: Untagged
@@ -2001,6 +2016,18 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &1796055123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796055120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f915f79454a16bb409c4d5cd742b1d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1873963161
 GameObject:
   m_ObjectHideFlags: 0
