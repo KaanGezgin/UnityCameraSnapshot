@@ -1,2 +1,2 @@
-# RealityIsAPerspective
-This repository for Viewfinder game's reality changer camera mechanics
+# UnityCameraSnapshot
+This repository for Unitys camera snapshot mechanic
