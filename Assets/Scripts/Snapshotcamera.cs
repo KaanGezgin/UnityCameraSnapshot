@@ -10,6 +10,9 @@ public class Snapshotcamera : MonoBehaviour
     int resWidth = 256;
     int resHeight = 256;
 
+    bool snapshotFlag = false;
+
+
     private void Awake()
     {
         snapshotCamera = GetComponent<Camera>();
