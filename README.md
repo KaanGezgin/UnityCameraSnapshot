@@ -1,2 +1,2 @@
 # UnityCameraSnapshot
-This repository for snapshoting in game scenes.
+This repository for snapshoting ingame scenes.
